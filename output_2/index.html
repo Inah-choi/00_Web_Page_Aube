@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aube | Architecting the Dawn</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Canvas Background -->
+    <canvas id="constellation-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AUBE</div>
+        <div class="nav-links">
+            <a href="#about">Philosophy</a>
+            <a href="#solutions">Ecosystem</a>
+            <a href="#contact" class="nav-cta">Signal Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Architecting the <span class="text-gradient">Dawn</span> of Intelligence</h1>
+            <p class="sub-headline">We translate complex data into elegant human experiences.</p>
+            <a href="#solutions" class="btn-primary">Discover Our Solutions</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions">
+        <div class="container">
+            <h2 class="section-title">Our Ecosystem</h2>
+            <div class="grid-container">
+                
+                <!-- Card 1 -->
+                <div class="card glass">
+                    <div class="card-icon">💍</div>
+                    <h3>Nuptia AI</h3>
+                    <p>The world's first algorithmic event planner. Predictive modeling for seamless matrimonial experiences.</p>
+                    <span class="tag">B2C / Lifestyle</span>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card glass">
+                    <div class="card-icon">▶️</div>
+                    <h3>Aube Studio</h3>
+                    <p>Generative video synthesis for creators. Turn raw text into cinematic narratives via our rendering engine.</p>
+                    <span class="tag">SaaS / Creative</span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card glass">
+                    <div class="card-icon">🌐</div>
+                    <h3>GeoFlux</h3>
+                    <p>Live geospatial intelligence. Real-time mapping interface for urban planning and logistics.</p>
+                    <span class="tag">Enterprise / Data</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper glass">
+                <h2 class="section-title">Initiate Collaboration</h2>
+                <p class="contact-sub">Ready to build the future? Signal us.</p>
+                
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Identity</label>
+                        <input type="text" id="name" name="name" placeholder="Name / Organization" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Coordinates</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic">Frequency</label>
+                        <select id="topic" name="topic">
+                            <option value="partnership">Partnership</option>
+                            <option value="demo">Demo Request</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Transmission</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Message Text..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary full-width">Transmit Message</button>
+                    <div id="form-feedback" class="hidden"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2023 Aube Technologies. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Privacy Protocol</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Logic -->
+    <script src="js/main.js"></script>
+</body>
+</html>
