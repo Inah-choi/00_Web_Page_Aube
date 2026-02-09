@@ -1,9 +1,0 @@
-.env
-output/
-__pycache__/
-*.pyc
-.venv/
-venv/
-*.egg-info/
-.next/
-node_modules/
