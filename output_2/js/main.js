@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = Object.fromEntries(formData.entries());
 
             try {
-                const response = await fetch('http://localhost:8000/contact', {
+                const response = await fetch('https://aube-backend.onrender.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
