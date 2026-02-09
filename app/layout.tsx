@@ -16,6 +16,19 @@ export const metadata: Metadata = {
   title: "Aube | Architecting the Dawn of Intelligence",
   description:
     "Aube is an AI company translating complex data into elegant human experiences. Discover our ecosystem of intelligent solutions.",
+  metadataBase: new URL("https://aube.ai.kr"),
+  openGraph: {
+    title: "Aube | Architecting the Dawn of Intelligence",
+    description:
+      "Aube is an AI company translating complex data into elegant human experiences.",
+    url: "https://aube.ai.kr",
+    siteName: "Aube",
+    locale: "ko_KR",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://aube.ai.kr",
+  },
 }
 
 export const viewport: Viewport = {
