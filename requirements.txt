@@ -4,3 +4,6 @@ google-genai
 python-dotenv
 langchain-google-genai
 email-validator
+fastapi
+uvicorn
+python-multipart
